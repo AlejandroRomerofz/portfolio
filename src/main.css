@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-height: 45px;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+input {
+  margin: 0;
+}
+
+.app {
+  color: black;
+}
+
+.app.dark {
+  color: white;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
