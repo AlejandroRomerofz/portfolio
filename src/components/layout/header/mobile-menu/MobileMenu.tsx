@@ -1,6 +1,9 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { NavigationItem as NavigationItem } from "../Header";
 import { IoMdClose } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import LangSelector from "../../../shared/lang-selector/LangSelector";
 
 type MobileMenuProps = {
   open: boolean;
@@ -44,9 +47,20 @@ export default function MobileMenu({
             {navigationItem.title}
           </p>
         ))}
+        <div className="flex gap-4 text-4xl">
+          <a href="/a">
+            <FaLinkedin></FaLinkedin>
+          </a>
+          <a href="/a">
+            <FaGithub></FaGithub>
+          </a>
+        </div>
       </div>
-      <div className="absolute top-0 right-0">
-        <p className="text-4xl p-10">
+      <div className="absolute top-0 left-0 p-10 w-full flex justify-between items-center">
+        <div className="text-md">
+          <LangSelector></LangSelector>
+        </div>
+        <p className="text-4xl">
           <IoMdClose
             onClick={() => {
               setOpen(false);

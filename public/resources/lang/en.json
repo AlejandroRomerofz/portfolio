@@ -1,0 +1,17 @@
+{
+  "LANG_ES": "Spanish",
+  "LANG_EN": "English",
+  "NAVEGATIONOPTION_HOME": "Home",
+  "NAVEGATIONOPTION_PROJECTS": "Projects",
+  "NAVEGATIONOPTION_ABOUT": "About",
+  "HOME_ROLE": "Software developer",
+  "HOME_SUBTITLE": "Welcome to my digital",
+  "HOME_SUBTITLE_SPAN": "Portfolio",
+  "HOME_DESCRIPTION_P1": "I'm a Full-Stack Web Developer with a passion for building efficient and scalable web solutions.",
+  "HOME_DESCRIPTION_P2": "I craft seamless user experiences and powerful applications. I love staying at the forefront of technology, continuously honing my skills, and sharing insights with the developer community.",
+  "HOME_BUTTON_PROJECTS": "See my projects",
+  "HOME_BUTTON_CV": "Download my cv",
+  "HOME_BUTTON_CONTACT": "Contact with me",
+
+  "PROJECTS_VIEWGITHUB": "View project on github"
+}

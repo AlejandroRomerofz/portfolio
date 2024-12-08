@@ -1,0 +1,20 @@
+{
+  "LANG_ES": "Español",
+  "LANG_EN": "Inglés",
+  "NAVEGATIONOPTION_HOME": "Inicio",
+  "NAVEGATIONOPTION_PROJECTS": "Proyectos",
+  "NAVEGATIONOPTION_ABOUT": "Acerca de",
+  "HOME_ROLE": "Desarrollador de software",
+  "HOME_SUBTITLE": "Bienvenido a mi",
+  "HOME_SUBTITLE_SPAN": "portfolio",
+  "HOME_DESCRIPTION_P1": "Soy un desarrollador web Full-Stack con pasión por construir soluciones web eficientes y escalables.",
+  "HOME_DESCRIPTION_P2": "Diseño experiencias de usuario fluidas y aplicaciones potentes. Me encanta estar a la vanguardia de la tecnología, mejorar continuamente mis habilidades y compartir conocimientos con la comunidad de desarrolladores.",
+  "HOME_BUTTON_PROJECTS": "Ver mis proyectos",
+  "HOME_BUTTON_CV": "Descargar mi CV",
+  "HOME_BUTTON_CONTACT": "Contacta conmigo",
+
+  "PROJECTS_VIEWGITHUB": "Ver proyecto en Github",
+  "PROJECT_DESCRIPTION_UNITCONVERTER": "interactive web application for quickly and easily convert units. Created with react.",
+  "PROJECT_DESCRIPTION_FLEXSIM": "interactive web application for quickly and easily convert units. Created with react.",
+  "PROJECT_DESCRIPTION_NOTICIASCRIPTO": "interactive web application for quickly and easily convert units. Created with react."
+}

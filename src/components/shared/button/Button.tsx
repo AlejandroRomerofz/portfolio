@@ -15,7 +15,7 @@ export default function Button({
   return (
     <div
       onClick={onClick}
-      className="w-100 rounded-lg py-3 px-8 flex justify-center items-center gap-3 border-2 border-textColorSecondary"
+      className="w-100 rounded-lg py-3 px-8 flex justify-center items-center gap-3 border-2"
     >
       {Icon != undefined ? <Icon></Icon> : null}
       <p className="text-sm">{text}</p>
