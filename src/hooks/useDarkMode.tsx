@@ -5,7 +5,11 @@ export default function useDarkMode() {
   const { darkMode, setDarkMode } = useContext(DarkModeContext);
 
   const toggleDarkMode = () => {
-    if (darkMode) return setDarkMode(false);
+    if (darkMode) {
+      localStorage.setItem("darktheme", "false");
+      return setDarkMode(false);
+    }
+    localStorage.setItem("darktheme", "true");
     setDarkMode(true);
   };
 

@@ -12,6 +12,23 @@
   "HOME_BUTTON_PROJECTS": "See my projects",
   "HOME_BUTTON_CV": "Download my cv",
   "HOME_BUTTON_CONTACT": "Contact with me",
+  "HOME_ABOUT_TITLE": "Who am I?",
+  "HOME_ABOUT_TEXT": "I am a young programmer born in Madrid, Spain, with a passion for creating meaningful web projects. I'm deeply curious about science and enjoy exploring how things work, both practically and theoretically. I love sharing knowledge, mentoring others and collaborating on ideas that inspire growth and creativity. When I'm not coding, you can often find me exploring the stars through astrophotography or indulging in science-based hobbies. My curiosity and passion drive everything I do, both personally and professionally.",
+  "HOME_EXPERIENCES_TITLE": "My Professional Experience",
+  "HOME_EXPERIENCES_SUBTITLE": "Here are the companies I've had the privilege of working with, where I’ve had the opportunity to refine and grow my skills.",
+  "HOME_SKILLS_TITLE": "My skills",
+  "HOME_SKILLS_SUBTITLE": "Here are the skills I’ve developed and refined throughout my career as developer",
 
-  "PROJECTS_VIEWGITHUB": "View project on github"
+  "PROJECTS_TITLE": "Here you can see some of my personal projects",
+  "PROJECTS_SUBTITLE": "Explore the projects I’ve worked on, showcasing my skills and expertise in action",
+  "PROJECTS_VIEWGITHUB": "View project on github",
+  "PROJECT_DESCRIPTION_UNITCONVERTER": "This web project is a unit conversion tool fully developed in React, supporting more than 20 different magnitudes. It features a multilingual interface and offers a smooth and intuitive experience for easily converting various units.",
+
+  "PROJECT_DESCRIPTION_FLEXSIM": "This web project is a Flexbox and Grid simulator fully developed in Vue. It includes dynamic switching between dark and light themes. The tool provides an intuitive interface for testing and understanding CSS layouts.",
+
+  "PROJECT_DESCRIPTION_NOTICIASCRIPTO": "This cryptocurrency website, developed in PHP with pure JavaScript, offers detailed information about various cryptocurrencies, conversion tools, and the latest news retrieved from RSS feeds.",
+
+  "PROJECT_DESCRIPTION_REFORMASCRIVAL": "This simple yet modern website for a remodeling company is built using React and TypeScript. It showcases the company's services and pricing, offering a clean and user-friendly design. The platform provides easy navigation for potential clients to explore available renovation solutions.",
+
+  "PROJECT_DESCRIPTION_PORTFOLIO": "This personal portfolio website, built with React and styled with Tailwind, highlights my key skills, projects, and other relevant information. The modern and responsive design showcases my work and experience, offering an interactive and engaging experience for visitors. It is the perfect place to explore my abilities and previous projects."
 }

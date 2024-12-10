@@ -1,9 +1,8 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { NavigationItem as NavigationItem } from "../Header";
 import { IoMdClose } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 import LangSelector from "../../../shared/lang-selector/LangSelector";
+import LinkedinGithub from "../../../shared/linkedin-github/LinkedinGithub";
 
 type MobileMenuProps = {
   open: boolean;
@@ -27,7 +26,7 @@ export default function MobileMenu({
 
   return (
     <div
-      className={`sm:hidden fixed top-0 w-screen h-screen bg-bgPrimary dark:bg-darkBgPrimary z-20 bg-opacity-80 dark:bg-opacity-95 backdrop-blur-sm transition-all duration-100 ${
+      className={`sm:hidden fixed top-0 w-screen h-screen bg-bgPrimary dark:bg-darkBgPrimary z-40 bg-opacity-80 dark:bg-opacity-95 backdrop-blur-sm transition-all duration-100 ${
         open ? "right-0" : "right-full"
       }`}
     >
@@ -47,14 +46,7 @@ export default function MobileMenu({
             {navigationItem.title}
           </p>
         ))}
-        <div className="flex gap-4 text-4xl">
-          <a href="/a">
-            <FaLinkedin></FaLinkedin>
-          </a>
-          <a href="/a">
-            <FaGithub></FaGithub>
-          </a>
-        </div>
+        <LinkedinGithub></LinkedinGithub>
       </div>
       <div className="absolute top-0 left-0 p-10 w-full flex justify-between items-center">
         <div className="text-md">

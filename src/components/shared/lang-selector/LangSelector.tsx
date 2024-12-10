@@ -19,6 +19,7 @@ export default function LangSelector() {
     getAllLangs();
   }, []);
 
+  // Avoid visual bug
   useEffect(() => {
     setSelected(l(langs.find(({ id }) => id == lang)?.name ?? ""));
   }, [langData]);
@@ -46,13 +47,14 @@ export default function LangSelector() {
           open ? "flex" : "hidden"
         } absolute  w-full flex-col left-0 top-[calc(100%-2px)] bg-bgTertiary dark:bg-darkBgTertiary border-[1px]`}
       >
-        {langs.map(({ name, id }) => {
+        {langs.map(({ name, id }, index) => {
           return (
             <p
               onClick={() => {
                 changeLang(id);
                 setOpen(false);
               }}
+              key={index}
               className={`${
                 id == lang
                   ? "bg-blue-200 dark:bg-blue-900"

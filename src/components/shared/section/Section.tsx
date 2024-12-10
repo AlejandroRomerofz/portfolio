@@ -29,7 +29,7 @@ export default function Section({
           : "bg-bgTertiary dark:bg-darkBgTertiary"
       } ${screenHeight ? "h-screen" : "min-h-screen"} ${
         fixed ? "fixed top-0 left-0 w-full" : "relative"
-      } pt-[calc(var(--header-height)+1.3rem)] pb-5 px-5 ${className}`}
+      } pt-[calc(var(--header-height)+2rem)] pb-5 px-5 ${className}`}
     >
       <div
         className={`${

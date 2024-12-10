@@ -15,7 +15,9 @@ const NotFound = React.lazy(
 );
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [darkMode, setDarkMode] = useState<boolean>(
+    localStorage.getItem("darktheme") == "true"
+  );
   const [lang, setLang] = useState<string>(
     localStorage.getItem("lang") ?? navigator.language
   );

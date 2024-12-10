@@ -10,13 +10,27 @@
     "imageUrl": "flexgridsim.png",
     "name": "Flex and grid simulator",
     "description": "PROJECT_DESCRIPTION_FLEXSIM",
-    "url": "unit-converter.alejandroromerofz.com",
+    "url": "flex-grid-simulator.alejandroromerofz.com",
     "githubUrl": "github.com/AlejandroRomerofz/web-unit-converter"
   },
   {
     "imageUrl": "noticiascripto.png",
     "name": "Noticias cripto y mas",
     "description": "PROJECT_DESCRIPTION_NOTICIASCRIPTO",
-    "url": "noticiascriptoymas.com"
+    "url": "noticiascriptoymas.com",
+    "githubUrl": "github.com/AlejandroRomerofz/noticiascryptoymas"
+  },
+  {
+    "imageUrl": "crival.svg",
+    "name": "Reformas Crival",
+    "description": "PROJECT_DESCRIPTION_REFORMASCRIVAL",
+    "url": "reformascrival.com"
+  },
+  {
+    "imageUrl": "portfolio.png",
+    "name": "Portfolio",
+    "description": "PROJECT_DESCRIPTION_PORTFOLIO",
+    "url": "alejandroromerofz.com",
+    "githubUrl": "github.com/AlejandroRomerofz/portfolio"
   }
 ]

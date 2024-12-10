@@ -1,0 +1,46 @@
+[
+  {
+    "name": "react",
+    "icon": "react"
+  },
+  {
+    "name": "vue",
+    "icon": "vue"
+  },
+  {
+    "name": "nodejs",
+    "icon": "nodejs-icon"
+  },
+  {
+    "name": "nextjs",
+    "icon": "nextjs-icon"
+  },
+  {
+    "name": "typescript",
+    "icon": "typescript-icon"
+  },
+  {
+    "name": "spring",
+    "icon": "spring-icon"
+  },
+  {
+    "name": "mysql",
+    "icon": "mysql"
+  },
+  {
+    "name": "postgre",
+    "icon": "postgresql"
+  },
+  {
+    "name": "prisma",
+    "icon": "prisma"
+  },
+  {
+    "name": "git",
+    "icon": "git-icon"
+  },
+  {
+    "name": "docker",
+    "icon": "docker-icon"
+  }
+]

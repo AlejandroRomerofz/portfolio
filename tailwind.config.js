@@ -5,19 +5,18 @@ export default {
   theme: {
     extend: {
       screens: {
-        "h-sm": { raw: "(max-height: 500px)" },
-        "h-md": { raw: "(max-height: 700px)" },
+        "h-sm": { raw: "(max-height: 600px)" },
       },
       height: {
         headerHeight: "50px",
       },
       colors: {
         bgPrimary: "#ffffff",
-        bgSecondary: "#ffff00",
+        bgSecondary: "#feffef",
         bgTertiary: "#fafafa",
         textColorTertiary: "#0ea5e9",
         darkBgPrimary: "#141414",
-        darkBgSecondary: "#4a0a0a",
+        darkBgSecondary: "#242938",
         darkBgTertiary: "#181818",
         darkTextColorTertiary: "#0ea5e9",
       },

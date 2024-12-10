@@ -13,8 +13,23 @@
   "HOME_BUTTON_CV": "Descargar mi CV",
   "HOME_BUTTON_CONTACT": "Contacta conmigo",
 
+  "HOME_ABOUT_TITLE": "¿Quién soy?",
+  "HOME_ABOUT_TEXT": "Me llamo Alejandro, nací en Madrid, España, y soy desarrollador web. Tengo una gran curiosidad por la ciencia y disfruto explorando cómo funcionan las cosas, tanto de manera práctica como teórica. Me encanta compartir conocimiento y colaborar en ideas que inspiren crecimiento y creatividad. Cuando no estoy programando, a menudo me encontrarás explorando las estrellas a través de la astrofotografía o disfrutando de hobbies relacionados con la ciencia.",
+  "HOME_EXPERIENCES_TITLE": "Mi experiencia profesional",
+  "HOME_EXPERIENCES_SUBTITLE": "Aquí están las empresas con las que he tenido el privilegio de trabajar, donde he tenido la oportunidad de refinar y crecer mis habilidades.",
+  "HOME_SKILLS_TITLE": "Mis habilidades",
+  "HOME_SKILLS_SUBTITLE": "Estas son las habilidades que he perfeccionado a lo largo de mi carrera como desarrollador",
+  "PROJECTS_TITLE": "Aquí puedes ver algunos de mis proyectos personales",
+  "PROJECTS_SUBTITLE": "Explora los proyectos en los que he trabajado, mostrando mis habilidades y experiencia en acción",
+
   "PROJECTS_VIEWGITHUB": "Ver proyecto en Github",
-  "PROJECT_DESCRIPTION_UNITCONVERTER": "interactive web application for quickly and easily convert units. Created with react.",
-  "PROJECT_DESCRIPTION_FLEXSIM": "interactive web application for quickly and easily convert units. Created with react.",
-  "PROJECT_DESCRIPTION_NOTICIASCRIPTO": "interactive web application for quickly and easily convert units. Created with react."
+  "PROJECT_DESCRIPTION_UNITCONVERTER": "Este proyecto web es una herramienta de conversión de unidades desarrollada completamente en React, que soporta más de 20 magnitudes diferentes. Cuenta con una interfaz multilingüe y ofrece una experiencia fluida e intuitiva para convertir diversas unidades con facilidad.",
+
+  "PROJECT_DESCRIPTION_FLEXSIM": "Este proyecto web es un simulador de Flexbox y Grid desarrollado completamente en Vue. Incluye un cambio dinámico entre temas oscuros y claros. La herramienta proporciona una interfaz intuitiva para probar y entender los layouts en CSS.",
+
+  "PROJECT_DESCRIPTION_NOTICIASCRIPTO": "Este sitio web de criptomonedas, desarrollado en PHP con JavaScript puro, ofrece información detallada sobre varias criptomonedas, herramientas de conversión y las últimas noticias obtenidas desde feeds RSS.",
+
+  "PROJECT_DESCRIPTION_REFORMASCRIVAL": "Este sitio web simple pero moderno para una empresa de reformas está construido utilizando React y TypeScript. Muestra los servicios y precios de la empresa, ofreciendo un diseño limpio y fácil de usar. La plataforma proporciona una navegación sencilla para que los clientes potenciales exploren las soluciones de reforma disponibles.",
+
+  "PROJECT_DESCRIPTION_PORTFOLIO": "Este sitio web personal de portfolio, construido con React y estilizado con Tailwind, destaca mis principales habilidades, proyectos y otra información relevante. El diseño moderno y responsivo muestra mi trabajo y experiencia, ofreciendo una experiencia interactiva y atractiva para los visitantes. Es el lugar perfecto para explorar mis capacidades y proyectos anteriores."
 }

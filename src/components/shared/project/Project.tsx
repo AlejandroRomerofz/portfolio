@@ -24,7 +24,7 @@ export default function Project({
         </div>
         <h2 className="text-lg font-bold">{name}</h2>
       </div>
-      <p className="text-sm">{l(description) ?? description}</p>
+      <p className="text-sm font-light">{l(description) ?? description}</p>
       <div className="flex flex-col gap-1">
         {url ? (
           <div className="flex items-center gap-2 text-sm">

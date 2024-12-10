@@ -11,7 +11,6 @@ export default function Navigation({ navigationItems }: NavigationProps) {
 
   const handleNavigationElementClick = (route: string) => {
     if (route == navigation.pathname) return;
-    console.log(navigation.pathname);
     navigate(route);
   };
 
@@ -26,8 +25,8 @@ export default function Navigation({ navigationItems }: NavigationProps) {
             }}
             className={`text-sm capitalize ${
               navigationItem.route == navigation.pathname
-                ? "text-textColorPrimary underline"
-                : "text-textColorSecondary"
+                ? "text-textColorPrimary font-bold"
+                : "text-textColorSecondary hover:underline cursor-pointer"
             }`}
           >
             {navigationItem.title}
