@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# Portfolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este es mi portafolio personal creado con **React**, **Tailwind CSS** y **TypeScript**. Está diseñado para mostrar las tecnologías que manejo y los proyectos que he realizado de manera autónoma. El sitio cuenta con:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dos idiomas disponibles**: Español e Inglés.
+- **Tema oscuro** para una experiencia visual moderna y cómoda.
 
-## Expanding the ESLint configuration
+Visítalo en: [alejandroromerofz.com](https://alejandroromerofz.com)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologías
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+El portafolio utiliza las siguientes tecnologías:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **React**: Biblioteca para crear interfaces de usuario.
+- **TypeScript**: Tipado estático para un código más robusto y mantenible.
+- **Tailwind CSS**: Framework de utilidades CSS para un diseño rápido y responsive.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Funcionalidades
+
+1. **Multilenguaje**:
+
+   - Alterna fácilmente entre Español e Inglés desde el menú principal.
+
+2. **Proyectos destacados**:
+
+   - Una sección dedicada para explorar los proyectos que he desarrollado.
+   - Cada proyecto incluye una breve descripción, tecnologías utilizadas y un enlace al repositorio o demo.
+
+3. **Acerca de mí**:
+   - Información sobre mi experiencia y las tecnologías en las que me especializo.
+
+---

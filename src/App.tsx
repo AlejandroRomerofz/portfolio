@@ -19,7 +19,7 @@ export default function App() {
     localStorage.getItem("darktheme") == "true"
   );
   const [lang, setLang] = useState<string>(
-    localStorage.getItem("lang") ?? navigator.language
+    localStorage.getItem("lang") ?? navigator.language.split("-")[0] ?? "es"
   );
   const [langData, setLangData] = useState<{
     [key: string]: string;

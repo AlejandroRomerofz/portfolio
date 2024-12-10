@@ -11,7 +11,7 @@ export default function ScrollIndicator({
     <div
       className={`absolute h-sm:hidden items-center gap-2 left-0 w-full  flex justify-center ${
         type == "down"
-          ? "bottom-0 h-sm:hidden pb-5"
+          ? "bottom-0 h-sm:hidden sm:pb-5 pb-[4.5rem]"
           : "top-[calc(var(--header-height)+12px)]"
       }`}
     >
