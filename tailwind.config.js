@@ -12,7 +12,7 @@ export default {
       },
       colors: {
         bgPrimary: "#ffffff",
-        bgSecondary: "#feffef",
+        bgSecondary: "#f0f0f0",
         bgTertiary: "#fafafa",
         textColorTertiary: "#0ea5e9",
         darkBgPrimary: "#141414",
