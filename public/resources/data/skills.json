@@ -1,5 +1,17 @@
 [
   {
+    "name": "typescript",
+    "icon": "typescript-icon"
+  },
+  {
+    "name": "php",
+    "icon": "php"
+  },
+  {
+    "name": "python",
+    "icon": "python"
+  },
+  {
     "name": "react",
     "icon": "react"
   },
@@ -8,32 +20,24 @@
     "icon": "vue"
   },
   {
-    "name": "nodejs",
-    "icon": "nodejs-icon"
-  },
-  {
     "name": "nextjs",
     "icon": "nextjs-icon"
   },
   {
-    "name": "typescript",
-    "icon": "typescript-icon"
+    "name": "nodejs",
+    "icon": "nodejs-icon"
   },
   {
-    "name": "spring",
-    "icon": "spring-icon"
+    "name": "laravel",
+    "icon": "laravel"
+  },
+  {
+    "name": "flask",
+    "icon": "flask"
   },
   {
     "name": "mysql",
     "icon": "mysql"
-  },
-  {
-    "name": "postgre",
-    "icon": "postgresql"
-  },
-  {
-    "name": "prisma",
-    "icon": "prisma"
   },
   {
     "name": "git",

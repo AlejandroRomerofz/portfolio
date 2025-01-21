@@ -20,7 +20,7 @@
   "HOME_SKILLS_TITLE": "Mis habilidades",
   "HOME_SKILLS_SUBTITLE": "Estas son las habilidades que he perfeccionado a lo largo de mi carrera como desarrollador",
   "PROJECTS_TITLE": "Aquí puedes ver algunos de mis proyectos personales",
-  "PROJECTS_SUBTITLE": "Explora los proyectos en los que he trabajado, mostrando mis habilidades y experiencia en acción",
+  "PROJECTS_SUBTITLE": "Explora los proyectos en los que he trabajado",
 
   "PROJECTS_VIEWGITHUB": "Ver proyecto en Github",
   "PROJECT_DESCRIPTION_UNITCONVERTER": "Este proyecto web es una herramienta de conversión de unidades desarrollada completamente en React, que soporta más de 20 magnitudes diferentes. Cuenta con una interfaz multilingüe y ofrece una experiencia fluida e intuitiva para convertir diversas unidades con facilidad.",
